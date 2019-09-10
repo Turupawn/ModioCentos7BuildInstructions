@@ -26,15 +26,17 @@ source ~/.bash_profile
 
 ```
 cd
-git clone https://github.com/modio/SDK.git
-cd SDK/
+git clone -n https://github.com/Turupawn/modioSDK.git # clone the specific commit you're lookingo for
+cd modioSDK/
+git checkout 0a0e040831d600cf8b0cd938eb90df5d4a26ce3c
+# git clone https://github.com/modio/SDK.git # alternatively use the current official mod.io version
 mkdir build
 cd build/
 cmake ..
 make
 ```
 
-The library is now located at ~/SDK/build/libmodio.so
+The library is now located at ~/modioSDK/build/libmodio.so
 
 # Grabbing the precompiled binary
 
