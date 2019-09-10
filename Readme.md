@@ -38,7 +38,7 @@ The library is now located at ~/SDK/build/libmodio.so
 
 # Grabbing the precompiled binary
 
-Alternatively just grab the [libmodio.so](https://github.com/Turupawn/ModioCentos7BuildInstructions/raw/master/libmodio.so) on this repo and isntall `curl-devel`.
+Alternatively just grab the [libmodio.so](https://github.com/Turupawn/ModioCentos7BuildInstructions/raw/master/libmodio.so) on this repo and install `curl-devel`.
 
 ```
 yum install curl-devel
